@@ -9,7 +9,7 @@ const OnboardingCartItem = (props) => {
         return ;
   return (
     <div className="h-screen absolute  w-[100%] bg-cover">
-      <img className='h-[70%] w-[100%] top-14' src={CardDetails.ImageUrl} alt='FruitImage'/>
+      <img className='h-[420px] w-[400px] top-14' src={CardDetails.ImageUrl} alt='FruitImage'/>
      <h1 className='font-montserrat relative text-[22px] font-extrabold leading-[28.83px] w-64 left-16 top-65 text-center text-[#09051C]'>{CardDetails.headingText}</h1>
       <p className='font-montserrat relative text-[12px] mt-2 text-[#000000] font-thin leading-[21.66px] text-center left-16 w-64 h-11'>{CardDetails.paraText}</p>
         <div className='text-center'>
