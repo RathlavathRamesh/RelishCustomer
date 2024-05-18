@@ -6,7 +6,7 @@ const RestaurentList=[{id:1,ImageUrl:'https://res.cloudinary.com/dnovcmruv/image
 
 const ExploreRestaurent = () => {
   return (
-    <div className='min-h-screen  h-auto opacity-10 absolute w-[100%]  bg-cover bg-[#FEFEFF]'
+    <div className='min-h-screen pb-24 h-auto opacity-10 absolute w-[100%]  bg-cover bg-[#FEFEFF]'
     style={{ backgroundImage: "url('https://res.cloudinary.com/dnovcmruv/image/upload/v1715617620/Pattern_1_v6q46x.png')", opacity:"10"}}
     >
       <Menubar/>
