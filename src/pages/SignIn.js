@@ -25,17 +25,17 @@ const LoginPage = () => {
           placeholder-[#3B3B3B]"
           placeholder="Email" />
         <input type="text"
-          className="mt-[8rem] text-[#3B3B3B] h-[3rem] rounded-xl outline-none shadow-md p-4 w-[287px] left-[3rem]  w-42 h-17 absolute top-398 left-53  opacity-30
+          className="mt-32 text-[#3B3B3B] h-4 rounded-xl outline-none shadow-md p-4 w-[287px] left-[3rem]  w-42 h-17 absolute top-398 left-53  opacity-30
           font-montserrat text-xs font-normal leading-[17.07px] tracking-[0.5px] text-left
           placeholder-[#3B3B3B]"
           placeholder="password" />
       <p className=" text-black mt-[12rem] font-montserrat text-xs font-medium leading-[19.98px] text-center ">Or Continue With</p>
-      <div className="ml-[2rem] mt-[1rem] flex flex-row">
-        <div className="h-[3rem] shadow-lg flex flex-row items-center justify-center p-2 bg-[white] rounded-xl left-[2rem] w-[9rem]">
+      <div className="ml-[2rem] mt-4 flex flex-row justify-center">
+        <div className="h-12 shadow-lg flex flex-row items-center justify-center p-2 bg-[white] rounded-xl w-36">
           <img src="https://res.cloudinary.com/dnovcmruv/image/upload/v1715694291/facebook-3_1_sdm1m1.png" className="h-[3vh] mr-[5px] w-[6vw]"/>
          <p className=" w-76 h-17 font-montserrat text-sm font-bold leading-[17.07px] tracking-[0.5px] text-left text-black ">FaceBook</p> 
         </div> 
-        <div className="h-[3rem] ml-3 shadow-lg flex flex-row items-center justify-center p-2 bg-[white] rounded-xl left-[2rem] w-[9rem]">
+        <div className="h-[3rem] ml-3 shadow-lg flex flex-row items-center justify-center p-2 bg-[white] rounded-xl left-[2rem] w-36">
           <img src="https://res.cloudinary.com/dnovcmruv/image/upload/v1715695161/google-icon_1_elkf6r.png" className="h-[3vh] mr-[5px] w-[6vw]"/>
          <p className=" w-76 h-17 font-montserrat text-sm font-bold leading-[17.07px] tracking-[0.5px] text-left text-black ">Google</p> 
         </div> 
