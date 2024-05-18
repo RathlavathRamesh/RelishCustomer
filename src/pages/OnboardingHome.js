@@ -18,7 +18,7 @@ const OnboardingHome = () => {
   const Item=PageItemsList[pageNum];
   console.log(pageNum)
   return (
-    <div className="max-h-screen bg-[#FFFFFF]">
+    <div className="min-h-screen bg-[#FFFFFF]">
      <OnboardingCartItem CardDetails={Item} key={Item.id} changePageFuntion={changePageFuntion}/>
     </div>
   )
