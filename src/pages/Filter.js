@@ -52,7 +52,7 @@ const Filter = () =>{
           }
         </ul>
         <div className="text-center mt-24 flex justify-center items-center">
-            <button className=' w-80 h-16 mb-4 rounded-3xl font-montserrat text-[14px] font-semibold leading-[40.96px]  text-[#ffffff] bg-[#B2AC88]'>Search</button>
+        <button className=' w-80 h-16 mb-4 rounded-3xl font-montserrat text-[14px] font-semibold leading-[40.96px]  text-[#ffffff] bg-[#B2AC88]'>Search</button>
          </div>
       </div>
     )
@@ -74,7 +74,7 @@ export const TypeItem=(prop)=>{
 export const LocationItem=(prop)=>{
     const {content}=prop
     return (
-        <li className='text-black flex justify-center relative rounded-xl m-2 opacity-30 items-center h-11 min-w-10 left-6 w-auto p-2 bg-[#B2AC88]'>
+        <li className='text-black flex  justify-center relative rounded-xl m-2 opacity-30 items-center h-11 min-w-10 left-6 w-auto p-2 bg-[#B2AC88]'>
          <p className='font-montserrat text-[12px] font-[500] leading-[14.63px] tracking-[0.43px] text-left text-black'>{content.tittle}</p>
         </li>
     )

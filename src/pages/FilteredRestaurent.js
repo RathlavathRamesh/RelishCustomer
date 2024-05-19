@@ -18,8 +18,8 @@ const FilteredRestaurent = () => {
             </div>
           </div>
       <div className='flex justify-around'>
-        <div className='w-72 h-12 bg-gray-300 ml-8 mt-4 opacity-30 shadow-xl flex flex-row rounded-[15px]'>
-         <img src='https://res.cloudinary.com/dnovcmruv/image/upload/v1715922443/Icon_Search_uxt5zj.png' alt='searchIcon' className='h-6 ml-2 w-6 mt-3'/>
+      <div className='w-72 h-12 bg-gray-300 ml-8 mt-4 shadow-xl flex flex-row rounded-[15px]'>
+         <img src='https://res.cloudinary.com/dnovcmruv/image/upload/v1715922443/Icon_Search_uxt5zj.png' alt='searchIcon' className='h-4 ml-2 w-4 mt-4 '/>
          <input type='text' placeholder='What do you want to order?' className='absolute outline-none text-[#B2AC88] font-montserrat text-[12px] font-normal leading-[14.63px] tracking-[0.5px] text-left bg-gray-300 left-16 h-12 w-52'/>
         </div>
         <div className='flex justify-center items-center mt-4 left-72 mr-4 ml-4 shadow-2xl bg-gray-200 w-12 opacity-30 rounded-2xl h-12 top-44'>
@@ -35,7 +35,7 @@ const FilteredRestaurent = () => {
      <div className='w-[100%] mt-8 '>
      <h1 className='text-[#09051C] font-montserrat text-[15px] font-bold leading-[19.65px] text-left ml-8'>Popular Restaurant</h1>
      </div>
-     <ul className='list-none flex justify-center flex-wrap '>
+     <ul className='list-none mt-36 flex items-center flex-wrap '>
       {
         RestaurentList.map((each)=>(
           <RestaurentItem cartItem={each} key={each.id}/>

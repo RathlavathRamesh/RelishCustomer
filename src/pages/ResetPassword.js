@@ -11,7 +11,7 @@ const ResetPassword = () => {
         router.replace('/PasswordSuccess')
     }
     return (
-        <div className='max-h-screen h-auto opacity-5 absolute w-[100%]  bg-cover bg-[#FEFEFF]'
+        <div className='min-h-screen h-auto opacity-5 absolute w-[100%]  bg-cover bg-[#FEFEFF]'
         style={{ backgroundImage: "url('https://res.cloudinary.com/dnovcmruv/image/upload/v1715617620/Pattern_1_v6q46x.png')", opacity:"15"}}>
            <div className='h-8 w-8 bg-[#F2F1E6] top-10 absolute left-6 flex justify-center items-center rounded-[10px] '>
              <img src='https://res.cloudinary.com/dnovcmruv/image/upload/v1715748776/Vector_j9krmr.png' alt='slicearrow' className='w-[2vw]'/>
@@ -36,8 +36,8 @@ const ResetPassword = () => {
                         <img src='https://res.cloudinary.com/dnovcmruv/image/upload/v1715703806/Show_rciumu.png' alt='ShowImage' className='h-[3vh] mt-[1vh] w-[5vw] opacity-20' onClick={changeShowPassword}/>
                   </div>
             </div>
-            <div className='flex flex-col h-screen items-center mb-24 justify-end '>
-            <button className=' w-32 h-12  mt-8 mb-5 rounded-[15px] font-montserrat text-[16px] font-bold leading-[20.96px]  text-[#ffffff] bg-[#B2AC88]' onClick={GotoSuccessPage}>Next</button>
+            <div className='flex justify-center '>
+                <button className=' w-32 h-12 fixed bottom-8  rounded-[15px] font-montserrat text-[16px] font-bold leading-[20.96px]  text-[#ffffff] bg-[#B2AC88]' onClick={GotoSuccessPage}>Next</button>
             </div>
         </div>
       )

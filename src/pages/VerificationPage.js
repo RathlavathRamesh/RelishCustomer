@@ -22,9 +22,9 @@ const VerificationPage = () => {
         </div>
         <div className=' h-screen flex items-center justify-center'> <OtpContainer/></div>
          
-        <div className='text-center'>
+        <div className='flex justify-center'>
         <button type='button' className=' w-36 h-12
-          rounded-[15px] mt-8  font-montserrat text-[16px] font-bold  leading-[20.96px]  text-[#ffffff] bg-[#B2AC88]' onClick={CallForgotPassword}>Next</button>
+          rounded-[15px] fixed  bottom-4 font-montserrat text-[16px] font-bold  leading-[20.96px]  text-[#ffffff] bg-[#B2AC88]' onClick={CallForgotPassword}>Next</button>
         </div>
     </div>
   )
