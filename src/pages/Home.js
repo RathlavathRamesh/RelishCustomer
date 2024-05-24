@@ -51,7 +51,4 @@ const Home = () => {
   )
 }
 
-export default Home
-
-
-//[#f2ebbf]
+export default Home 

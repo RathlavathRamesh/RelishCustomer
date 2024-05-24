@@ -4,7 +4,6 @@ import OtpInput from './OtpInput';
 const OtpContainer = () => {
   const handleOtpComplete = (otp) => {
     console.log('OTP Complete:', otp);
-    // Add validation or further processing here
   };
 
   return (
